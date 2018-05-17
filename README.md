@@ -4,13 +4,24 @@ Embedded and mobile deep learning research notes
 
 ## Papers
 
+### Survey
+
+1. [A Survey of Model Compression and Acceleration for Deep Neural Networks](https://arxiv.org/abs/1710.09282) [arXiv '17]
+
 ### Model
 
-1. [DeepRebirth: Accelerating Deep Neural Network Execution on Mobile Devices](https://arxiv.org/abs/1708.04728) [arXiv '17, Samsung]
+1. [MobilenetV2: Inverted Residuals and Linear Bottlenecks: Mobile Networks for
+Classification, Detection and Segmentation](https://arxiv.org/pdf/1801.04381.pdf) [arXiv '18, Google]
+
+1. [NasNet: Learning Transferable Architectures for Scalable Image Recognition](https://arxiv.org/pdf/1707.07012.pdf) [arXiv '17, Google]
+
+1. [DeepRebirth: Accelerating Deep Neural Network Execution on Mobile Devices](https://arxiv.org/abs/1708.04728) [AAAI'18, Samsung]
 
 1. [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/abs/1707.01083) [arXiv '17, Megvii]
 
 1. [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861) [arXiv '17, Google]
+
+1. [CondenseNet: An Efficient DenseNet using Learned Group Convolutions](https://arxiv.org/abs/1711.09224) [arXiv '17]
 
 ### System
 
@@ -36,6 +47,8 @@ Embedded and mobile deep learning research notes
 
 1. [CNNdroid: GPU-Accelerated Execution of Trained Deep Convolutional Neural Networks on Android](https://arxiv.org/abs/1511.07376) [MM '16]
 
+1. [fpgaConvNet: A Toolflow for Mapping Diverse Convolutional Neural Networks on Embedded FPGAs](https://arxiv.org/abs/1711.08740) [NIPS '17]
+
 ### Quantization
 
 1. [The ZipML Framework for Training Models with End-to-End Low Precision: The Cans, the Cannots, and a Little Bit of Deep Learning](https://arxiv.org/abs/1611.05402) [ICML'17]
@@ -47,6 +60,7 @@ Embedded and mobile deep learning research notes
 1. [Towards the Limit of Network Quantization](https://arxiv.org/abs/1612.01543) [ICLR'17]
 1. [Deep Learning with Low Precision by Half-wave Gaussian Quantization](https://arxiv.org/abs/1702.00953) [CVPR'17]
 1. [ShiftCNN: Generalized Low-Precision Architecture for Inference of Convolutional Neural Networks](https://arxiv.org/abs/1706.02393) [arXiv'17]
+1. [Training and Inference with Integers in Deep Neural Networks](https://openreview.net/forum?id=HJGXzmspb) [ICLR'18]
 
 ### Pruning
 
@@ -58,6 +72,7 @@ Embedded and mobile deep learning research notes
 1. [Dynamic Network Surgery for Efficient DNNs](https://arxiv.org/abs/1608.04493) [NIPS'16]
 1. [Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning](https://arxiv.org/abs/1611.05128) [CVPR'17]
 1. [ThiNet: A Filter Level Pruning Method for Deep Neural Network Compression](https://arxiv.org/abs/1707.06342) [ICCV'17]
+1. [To prune, or not to prune: exploring the efficacy of pruning for model compression](https://arxiv.org/abs/1710.01878) [ICLR'18]
 
 ### Approximation
 
@@ -66,16 +81,26 @@ Embedded and mobile deep learning research notes
 1. [Convolutional neural networks with low-rank regularization](https://arxiv.org/abs/1511.06067) [arXiv'15]
 1. [Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation](https://arxiv.org/abs/1404.0736) [NIPS'14]
 1. [Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications](https://arxiv.org/abs/1511.06530) [ICLR'16]
+1. [High performance ultra-low-precision convolutions on mobile devices](https://arxiv.org/abs/1712.02427) [NIPS'17]
+
+### Characterization
+
+1. [NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications](https://arxiv.org/abs/1804.03230) [arXiv'18, Google]
+1. [Latency and Throughput Characterization of Convolutional Neural Networks for Mobile Computer Vision](https://arxiv.org/abs/1803.09492) [MMSys’18]
 
 ## Libraries
 
 ### General
 
+1. [Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform](https://github.com/Tencent/ncnn)
+
+1. [baidu/mobile-deep-learning: This research aims at simply deploying CNN(Convolutional Neural Network) on mobile devices, with low complexity and high speed.](https://github.com/baidu/mobile-deep-learning)
+
 1. [ARM-software/ComputeLibrary: The ARM Computer Vision and Machine Learning library is a set of functions optimised for both ARM CPUs and GPUs using SIMD technologies](https://github.com/ARM-software/ComputeLibrary), [Intro](https://developer.arm.com/technologies/compute-library)
 
 1. [Apple CoreML](https://developer.apple.com/documentation/coreml)
 
-1. [Tencent/ncnn: ncnn is a high-performance neural network inference framework optimized for the mobile platform](https://github.com/Tencent/ncnn)
+1. [xmartlabs/Bender: Easily craft fast Neural Networks on iOS! Use TensorFlow models. Metal under the hood.](https://github.com/xmartlabs/Bender)
 
 1. [Snapdragon Neural Processing Engine](https://developer.qualcomm.com/software/snapdragon-neural-processing-engine)
 
@@ -84,6 +109,12 @@ Embedded and mobile deep learning research notes
 1. [MXNet Amalgamation](https://github.com/dmlc/mxnet/tree/master/amalgamation)
 
 1. [TensorFlow on Android](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/android)
+
+1. [TensorFlow Lite](https://www.tensorflow.org/mobile/tflite/)
+
+1. [OAID/Tengine: Tengine is a lite, high performance, modular inference engine for embedded device](https://github.com/OAID/Tengine)
+
+1. [RSTensorFlow: GPU Accelerated TensorFlow for Commodity Android Devices](https://nesl.github.io/RSTensorFlow/)
 
 ### Web
 
